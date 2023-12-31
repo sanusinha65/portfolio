@@ -22,7 +22,7 @@ function App() {
         {/* <Route path="/" element={} />
         <Route path="/" element={} /> */}
       <Route path="*" element={<Navigate to="/portfolio" />} />
-
+      <Route path="/portfolio/" element={<Navigate to="/portfolio" />} />
       </Routes>
     </BrowserRouter>
     </div>
