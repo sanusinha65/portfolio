@@ -10,8 +10,8 @@ function Header() {
         className={`nav nav-pills bg-danger nav-fill gap-2 p-1 small rounded-5 shadow-lg `}>
         <li className="nav-item text-white">
           <Link
-            to="/portfolio"
-            className={`nav-link text-white ${window.location.pathname === "/portfolio" || window.location.pathname === "/" ? "bg-dark active": ""} rounded-5`}
+            to="/portfolio/home"
+            className={`nav-link text-white ${window.location.pathname === "/portfolio/home" || window.location.pathname === "/" ? "bg-dark active": ""} rounded-5`}
           >
             Home
           </Link>
